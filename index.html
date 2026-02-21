@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuestro 5 Mes</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="card-container">
+
+<!-- INICIO -->
+<section class="screen active" id="home">
+
+    <img src="assets/cat.png" class="cat">
+
+    <h1 class="main-title">
+        Hola<br>
+        <span>Mi amor!</span>                   
+    </h1>
+
+    <p class="subtitle">tengo algo para ti quieres verlo?</p>
+
+    <div class="btn-group">
+        <button class="yes" onclick="goTo('menu')">SI</button>
+        <button class="no" id="noBtn">NO</button>
+    </div>
+
+</section>
+
+<!-- MENU -->
+<section class="screen" id="menu">
+    <h2 class="section-title">Esto es para ti</h2>
+
+    <div class="menu-grid">
+        <div class="menu-box" onclick="goTo('gallery')">🖼️</div>
+        <div class="menu-box" onclick="goTo('flowers')">🌷</div>
+        <div class="menu-box" onclick="goTo('video')">🔒</div>
+        <div class="menu-box" onclick="goTo('letter')">💌</div>
+    </div>
+
+    <button class="back" onclick="goTo('home')">Volver</button>
+</section>
+
+<!-- FLORES -->
+<section class="screen" id="flowers">
+    <h2 class="section-title">Para ti</h2>
+
+    <div class="flowers-layout">
+        <div class="side-text">Eres Hermosa</div>
+
+        <img src="assets/flowers.png" class="flower-img">
+
+        <div class="side-text">Como Nuestras flores favoritas</div>
+    </div>
+
+    <button class="back" onclick="goTo('menu')">Volver</button>
+</section>
+
+<!-- VIDEO -->
+<section class="screen" id="video">
+    <h2 class="section-title">Esta cancion me recuerda a ti mi vida</h2>
+
+    <div class="video-box">
+        <iframe 
+    width="100%" 
+    height="400"
+    src="https://www.youtube.com/embed/cNGjD0VG4R8"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>   
+    </div>
+
+    <button class="back" onclick="goTo('menu')">Volver</button>
+</section>
+
+<!-- GALERÍA -->
+<section class="screen" id="gallery">
+    <h2 class="section-title">Captured Memories</h2>
+
+    <div class="gallery-container">
+        <div class="gallery">
+            <img src="assets/photos/foto1.jpg">
+            <img src="assets/photos/foto2.jpg">
+            <img src="assets/photos/foto3.jpg">
+            <img src="assets/photos/foto4.jpg">
+            <img src="assets/photos/foto5.jpg">
+            <img src="assets/photos/foto6.jpg">
+            <img src="assets/photos/foto7.jpg">
+            <img src="assets/photos/foto8.jpg">
+        </div>
+    </div>
+
+    <button class="back" onclick="goTo('menu')">Return</button>
+</section>
+
+<!-- CARTA -->
+<section class="screen" id="letter">
+    <h2 class="section-title">Nuestro 5 Mes</h2>
+
+    <div class="letter-box">
+        <p>
+            Mi amor, hoy celebramos nuestro 5 mes juntos y quiero decirte lo feliz que me haces cada día, es increible que ya sean 154 dias juntos y como han pasado tan rapido, cada momento a tu lado es un regalo que adoro y me siento afortunado de tenerte en mi vida, gracias por ser mi compañera de vida, mi amiga, mi novia, mi confidente mi todo, gracias por estar aqui mi amor, gracias por todos los momentos que hemos compartido, gracias por las risas, por las palabras profundas, por tu apoyo, por luchar junto a mi de mi mano, gracias por todo mi vida, mi vida tu llegaste a mi vida y le diste un color diferente, un color lleno de amor, de felicidad, de paz, de confianza, de todo lo bonito, a veces me quedo pensando en todo lo que ha pasado desde ese día en que te pedí que fueras mi novia y me generan muchos sentimientos en el pecho, como una mezcla de nostalgia y felicidad, porque no fue solo una pregunta, fue el inicio de algo que cambió mi mundo, mi vida, y mis ojitos brillan de una manera diferente, unica y hermosa desde que estas a mi lado, cinco meses después mi amor y yo sigo tan enamorado de esa niña bella que me hace latir el corazón de una manera muy bella,  y me hace sentir el hombre mas afortunado del mundo de tenerte conmigo,  sigo sonriendo cuando veo un mensajito tuyo, me sigo emocionando cada vez q se que te voy a ver y vamos a tener un dia lleno de besos, abrazos y todo lo bonito que es tan unico de los dos, tu mi amor me das paz, me das calma, me reconfortas mi corazón, lo acompañas siempre asi estemos lejitos y me haces sentir algo hermoso, algo que solo tu provocas en mi y quiero sentir para toda la vida, me gusta amarte, amo amarte y amo nuestro amor,  me gusta que podamos hablar de todo,  me gusta como compartimos cositas q nos gustan y tengamos ratos tan bellos juntos, me gusta mirarte a los ojos y perderme en ellos, me gusta ser empalagoso, me gusta querer tenerte muy cerquita mio y abrazarte mucho, me gusta ser tu amor, me gusta ser tu niño, me gusta ser tuyo y soñar a tu lado nuestra bella eternidad y luchar por ella juntos,  a veces pienso en ese primer momento, en cómo empezó todo y ahora míranos, cinco meses después y yo sigo aquí, igual de enamorado o más,  eres mi lugar seguro, mi tranquilidad, pero también eres la emoción que me mueve el corazón, gracias por estar, por no rendirte, por quererme tal como soy, gracias por cuidarme y dejarme cuidarte, yo de verdad quiero casarme contigo mi amor, sueño cada dia con ese dia, sueño con vivir juntos, que nuestra casa este llena de felicidad, momentos nuestros y demasiado amor, mi vida quiero cuidarte, quiero cuidar lo nuestro juntos, quiero que luchemos juntos, quiero ser tu enamorado toda la vida, cuando pienso en el futuro no lo imagino vacío, lo imagino contigo, en lo simple y en lo grande, viajando juntos, llenando nuestra vida de tantos recuerdos que atesoraremos con el corazón, me imagino tomándote de la mano y diciendo que valió la pena, porque sí mi amor, tú vales la pena, cada intento, cada esfuerzo, cada conversación, mi amor no sabes lo feliz que me haces, eres mi razón, mi mundo, eres el amor de mi alma, de mi eternidad, de mi corazón, de todo mi ser, te amo y te amare siempre mi chiquita preciosa,  5 meses mi amor 5 meses es solo una parte de toda esta vida juntos, te amo infinitamente mi reina felices cinco meses mi niña hermosa, aquí sigo, este loco de amor por ti, te amo más que mil palabras, quiero seguir escribiendo esta linda historia contigo dia a dia y cada texto se convierta en nuestros mas lindos recuerdos y leerlos el dia de nuestra boda.                                                                                                                                                                                                                                                                                                                                          
+
+
+Te amo Danna Melissa Pastas Riascos te amo con todo lo que soy y seremos juntos.
+💗 💕 💌
+
+        </p>
+    </div>
+
+    <button class="back" onclick="goTo('menu')">Volver</button>
+</section>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
